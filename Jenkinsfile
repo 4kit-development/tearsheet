@@ -20,4 +20,4 @@ node('master') {
     stage('test') {
         sh "APP_ENV=testing ./develop test"
     }
-} 
+}
