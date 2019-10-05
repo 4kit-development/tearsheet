@@ -2,20 +2,18 @@
 
 namespace Tests\Feature;
 
+use OhMyBrew\ShopifyApp\Exceptions\MissingShopDomainException;
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 
-class ExampleTest extends TestCase
+class SettingsTest extends TestCase
 {
-    /**
-     * A basic test example.
-     *
-     * @return void
-     */
-    public function testBasicTest()
+
+    /** @test */
+    function retrieving_root_url_without_shop_url_throws_an_exception()
     {
         $response = $this->get('/');
 
-        $response->assertStatus(200);
+        $response->assertStatus(403);
     }
+
 }
