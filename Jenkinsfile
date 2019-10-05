@@ -2,7 +2,7 @@
 
 node('master') {
     stage('build') {
-        git url: 'git@github.com:jsnightingale/tearsheet.git'
+        git url: 'git@github.com:4kit-development/tearsheet.git'
 
         // Start services (Let docker-compose build containers for testing)
         sh "./develop up -d"
