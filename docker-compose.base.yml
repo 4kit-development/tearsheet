@@ -4,7 +4,7 @@ services:
     build:
       context: ./docker/app
       dockerfile: Dockerfile
-    image: 4kit-development/app
+    image: tearsheet/app
     volumes:
      - .:/var/www/html
     networks:
@@ -13,7 +13,7 @@ services:
     build:
       context: ./docker/node
       dockerfile: Dockerfile
-    image: 4kit-development/node
+    image: tearsheet/node
     volumes:
      - .:/var/www/html
     networks:
