@@ -76,7 +76,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/recursion-context" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/resource-operations" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/version" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/shipping-docker/vessel" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/image" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/image-optimizer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-medialibrary" />

@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="248c93ec-491f-44a1-8de2-82e4188d7f3b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tearsheet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tearsheet.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/app/default" beforeDir="false" afterPath="$PROJECT_DIR$/docker/app/default" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/app/php-fpm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/app/php-fpm.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/app/start-container" beforeDir="false" afterPath="$PROJECT_DIR$/docker/app/start-container" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/SettingsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Setting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.base.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.base.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/app/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/build" beforeDir="false" afterPath="$PROJECT_DIR$/docker/build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/SettingsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/SettingsTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,14 +27,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/SettingsTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="232">
+              <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
               <folding>
-                <element signature="e#33#95#0#PHP" expanded="true" />
+                <element signature="e#33#52#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker/build">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -36,67 +69,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithExceptionHandling.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="1281">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
+        <entry file="file://$PROJECT_DIR$/app/Setting.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            <state relative-caret-position="188">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/build">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop">
+        <entry file="file://$PROJECT_DIR$/app/Shop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-588" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.base.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="361">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+              <folding>
+                <element signature="e#23#62#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/app/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/app/php-fpm.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/app/start-container">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -111,9 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>845786a16acdb7925f597f701eb3fe00</find>
-      <find>SHOPIFY_MYSHOPIFY_DOMAIN</find>
-      <find>this-&gt;log</find>
       <find>requestAndSetAccess</find>
       <find>SHOPIFY_APPBRIDGE_ENABLED</find>
       <find>api</find>
@@ -141,12 +139,16 @@
       <find>php7.</find>
       <find>:3000</find>
       <find>7.0</find>
+      <find>vess</find>
+      <find>shipping-docker</find>
+      <find>shippingdocker</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/vendor/ohmybrew/laravel-shopify/src/ShopifyApp</dir>
-      <dir>$PROJECT_DIR$/</dir>
       <dir>$PROJECT_DIR$/docker</dir>
+      <dir>$PROJECT_DIR$/vendor</dir>
+      <dir>$PROJECT_DIR$/</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -155,9 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/components/dropzone.blade.php" />
-        <option value="$PROJECT_DIR$/resources/js/components/DropZone.js" />
-        <option value="$PROJECT_DIR$/resources/js/components/Dropzone.js" />
         <option value="$PROJECT_DIR$/resources/js/components/Imagezone.js" />
         <option value="$PROJECT_DIR$/resources/js/components/Settings.js" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -186,7 +185,6 @@
         <option value="$PROJECT_DIR$/app/Http/Requests/Setting.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/Upload.php" />
         <option value="$PROJECT_DIR$/resources/js/components/enabled.js" />
-        <option value="$PROJECT_DIR$/app/Setting.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AppProxyController.php" />
         <option value="$PROJECT_DIR$/vendor/ohmybrew/laravel-shopify/src/ShopifyApp/Jobs/ScripttagInstaller.php" />
@@ -205,7 +203,11 @@
         <option value="$PROJECT_DIR$/docker/app/start-container" />
         <option value="$PROJECT_DIR$/docker/app/php-fpm.conf" />
         <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
+        <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/tests/Feature/SettingsTest.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/Setting.php" />
+        <option value="$PROJECT_DIR$/docker/build" />
       </list>
     </option>
   </component>
@@ -316,7 +318,6 @@
       <path value="$PROJECT_DIR$/vendor/mtdowling/jmespath.php" />
       <path value="$PROJECT_DIR$/vendor/aws/aws-sdk-php" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem-aws-s3-v3" />
-      <path value="$PROJECT_DIR$/vendor/shipping-docker/vessel" />
       <path value="$PROJECT_DIR$/vendor/predis/predis" />
     </include_path>
   </component>
@@ -347,18 +348,14 @@
               <item name="tearsheet" type="b2602c69:ProjectViewProjectNode" />
               <item name="tearsheet" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tearsheet" type="b2602c69:ProjectViewProjectNode" />
               <item name="tearsheet" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tearsheet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tearsheet" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tearsheet" type="b2602c69:ProjectViewProjectNode" />
@@ -405,6 +402,75 @@
               <item name="tearsheet" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="Unit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tearsheet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tearsheet" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tearsheet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tearsheet" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="ohmybrew" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tearsheet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tearsheet" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="ohmybrew" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-shopify-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tearsheet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tearsheet" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="ohmybrew" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-shopify-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tearsheet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tearsheet" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="ohmybrew" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-shopify-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="OhMyBrew" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tearsheet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tearsheet" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="ohmybrew" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-shopify" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tearsheet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tearsheet" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="ohmybrew" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-shopify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tearsheet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tearsheet" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="ohmybrew" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-shopify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopifyApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tearsheet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tearsheet" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="ohmybrew" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-shopify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopifyApp" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -461,18 +527,18 @@
       <workItem from="1567314350238" duration="7630000" />
       <workItem from="1567727917357" duration="13131000" />
       <workItem from="1568514206701" duration="19092000" />
-      <workItem from="1569118412482" duration="46313000" />
+      <workItem from="1569118412482" duration="47423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86166000" />
+    <option name="totallyTimeSpent" value="87276000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15236051" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1720517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -487,7 +553,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3739726" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -498,32 +564,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="120" column="78" lean-forward="true" selection-start-line="120" selection-start-column="78" selection-end-line="120" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/shopify-app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/ohmybrew/basic-shopify-api/src/OhMyBrew/BasicShopifyAPI.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1476">
-          <caret line="751" column="31" lean-forward="true" selection-start-line="751" selection-start-column="31" selection-end-line="751" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/ohmybrew/laravel-shopify/src/ShopifyApp/Facades/ShopifyApp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/ohmybrew/basic-shopify-api/test/fixtures/admin__oauth__access_token__grant.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -573,9 +613,6 @@
           <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/ohmybrew/laravel-shopify/src/ShopifyApp/Middleware/AuthShop.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/ohmybrew/laravel-shopify/src/ShopifyApp/Middleware/AuthWebhook.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -634,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Setting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/Upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -690,27 +720,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AppProxyController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Shop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="e#23#62#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,9 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/build">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/develop">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-588" />
@@ -801,37 +811,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/app/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/app/php-fpm.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/app/start-container">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker/app/default">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.base.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithExceptionHandling.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
@@ -842,13 +825,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.base.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/app/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/app/php-fpm.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/app/start-container">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Shop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ohmybrew/laravel-shopify/src/ShopifyApp/ShopifyApp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1965" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ohmybrew/laravel-shopify/src/ShopifyApp/Middleware/AuthShop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1201">
+          <caret line="109" column="38" lean-forward="true" selection-start-line="109" selection-start-column="38" selection-end-line="109" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithExceptionHandling.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/SettingsTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="232">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
           <folding>
-            <element signature="e#33#95#0#PHP" expanded="true" />
+            <element signature="e#33#52#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/build">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
         </state>
       </provider>
     </entry>

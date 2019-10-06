@@ -25,12 +25,6 @@ class Setting extends Model
         }
     }
 
-    public function getLogoAttribute() {
-        if($this->name == 'logo') {
-            return $this->value;
-        }
-    }
-
     public function getLayoutAttribute() {
         if($this->name == 'layout') {
             return $this->value;
