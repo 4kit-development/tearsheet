@@ -29,8 +29,11 @@ cd $DIR/app/packaged
 # Build the Docker image with latest code
 cd $DIR/app
 docker build \
-    -t 4kit-development/app:latest \
-    -t 4kit-development/app:$HASH .
+    -t localhost:5000/4kit-development/app:latest \
+    -t localhost:5000/4kit-development/app:$HASH .
+
+docker push localhost:5000/4kit-development/app:latest
+docker push localhost:5000/4kit-development/app:$HASH
 
 # Clean up packaged directory
 cd $DIR/app/packaged
