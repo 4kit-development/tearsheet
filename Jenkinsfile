@@ -23,6 +23,10 @@ node('master') {
             stage('package') {
                 sh './docker/build'
             }
+
+            stage('deploy') {
+                sh 'ssh -i ~/.ssh/id_sd ubuntu@54.186.229.46 sudo /opt/deploy'
+            }
         }
     } catch(error) {
         // Maybe some alerting?
