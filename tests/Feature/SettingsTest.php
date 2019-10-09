@@ -7,7 +7,6 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class SettingsTest extends TestCase
 {
-
     use DatabaseMigrations;
 
     /** @test */
