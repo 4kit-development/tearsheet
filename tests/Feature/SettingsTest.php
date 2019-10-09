@@ -15,7 +15,7 @@ class SettingsTest extends TestCase
     {
         $response = $this->get('/');
 
-        $response->assertStatus(404);
+        $response->assertStatus(403);
     }
 
     /** @test */
@@ -23,7 +23,7 @@ class SettingsTest extends TestCase
     {
         $response = $this->get('/');
 
-        $response->assertStatus(404);
+        $response->assertStatus(403);
     }
 
 }

@@ -48,7 +48,7 @@ class Handler extends ExceptionHandler
     public function render($request, Exception $exception)
     {
         if ( $exception instanceof MissingShopDomainException) {
-            abort(404);
+            abort(403);
         }
 
         return parent::render($request, $exception);
