@@ -22,7 +22,7 @@ cd $DIR/app/packaged
 
 # Get the production .env file
 ## This assumes we're running in Jenkins as user "jenkins"
-/var/lib/jenkins/.venv/bin/aws s3 cp s3://tearsheet-secrets/env.ci .env
+/var/lib/jenkins/.venv/bin/aws s3 cp s3://tearsheet-secrets/env.prod .env
 
 # Build the Docker image with latest code
 cd $DIR/app
