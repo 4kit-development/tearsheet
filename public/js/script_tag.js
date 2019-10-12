@@ -64,19 +64,20 @@ aren’t available to the outside world. */
         console.log(info);
 
         if(info.enabled === 'enabled') {
-            let htmlButton = `<button type="submit" class="shopify-payment-button__button shopify-payment-button__button--unbranded">
+            let htmlButton = `
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+            <button type="submit" class="specsheet shopify-payment-button__button shopify-payment-button__button--unbranded">
   				<span>
-                  Print this page
+                   <i></i> Spec Sheet
                 </span>
-              </button>`;
+            </button>`;
 
             $('#tear-sheet').html(htmlButton);
         }
 
-        console.log(Shopify.shop);
-
         $('#tear-sheet').on('click', 'button', function(e){
             e.preventDefault();
+            $('button.specsheet > i').addClass('fa fa-spinner fa-spin');
             $.ajax({
                 method: 'POST',
                 url: 'https://l3omp3rfyf.execute-api.us-west-2.amazonaws.com/prod/pdf',
@@ -117,6 +118,8 @@ aren’t available to the outside world. */
                     link.download = `${product.id}.pdf`;
 
                     link.click();
+
+                    $('button.specsheet > i').removeClass('fa fa-spinner fa-spin');
                 }
             });
             return;

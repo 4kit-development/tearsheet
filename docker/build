@@ -19,6 +19,8 @@ git archive --format=tar --worktree-attributes $HASH | tar -xf -  -C $DIR/app/pa
 ## (Decision between export-ignore'ing docker/develop command or not)
 cd $DIR/app/packaged
 ./develop composer install --no-dev
+./develop art route:cachee
+./develop art queue:restart
 
 # Get the production .env file
 ## This assumes we're running in Jenkins as user "jenkins"
