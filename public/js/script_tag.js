@@ -67,7 +67,7 @@ aren’t available to the outside world. */
             let htmlButton = `
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
             <button type="submit" class="specsheet shopify-payment-button__button shopify-payment-button__button--unbranded">
-  				<span>
+  				<span>ed
                    <i></i> Spec Sheet
                 </span>
             </button>`;
