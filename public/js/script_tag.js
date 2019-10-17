@@ -49,6 +49,7 @@ aren’t available to the outside world. */
         // Don't use jQuery, or jQuery191, use the dollar sign.
         // Do this and do that, using $.
         let product = JSON.parse($('#ProductJson-product-template').html());
+        $('head').append('<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">');
         console.log(product);
 
         var info = {};
@@ -64,10 +65,9 @@ aren’t available to the outside world. */
         console.log(info);
 
         if(info.enabled === 'enabled') {
-            let htmlButton = `
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+            let htmlButton = ` 
             <button type="submit" class="specsheet shopify-payment-button__button shopify-payment-button__button--unbranded">
-  				<span>ed
+  				<span>
                    <i></i> Spec Sheet
                 </span>
             </button>`;
