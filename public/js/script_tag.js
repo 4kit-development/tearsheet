@@ -68,7 +68,7 @@ aren’t available to the outside world. */
             let htmlButton = ` 
             <button type="submit" class="specsheet shopify-payment-button__button shopify-payment-button__button--unbranded">
   				<span>
-                   <i></i> Spec Sheet 
+                   <i></i>Spec Sheet 
                 </span>
             </button>`;
 
